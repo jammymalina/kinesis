@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/locale/af.js"></script>
+
+    <title>Whack a snake</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <div id="timer">
+            <span id="timer-text"></span>
+            <span id="timer-btn"></span>
+        </div>
+        <main>
+            <div class="row">
+                <img src="snake.png" alt="Snake" data-snake-index="1">
+                <img src="snake.png" alt="Snake" data-snake-index="2">
+                <img src="snake.png" alt="Snake" data-snake-index="3">
+            </div>
+            <div class="row">
+                <img src="snake.png" alt="Snake" data-snake-index="4">
+                <img src="snake.png" alt="Snake" data-snake-index="5">
+                <img src="snake.png" alt="Snake" data-snake-index="6">
+            </div>
+            <div class="row">
+                <img src="snake.png" alt="Snake" data-snake-index="7">
+                <img src="snake.png" alt="Snake" data-snake-index="8">
+                <img src="snake.png" alt="Snake" data-snake-index="9">
+            </div>
+        </main>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

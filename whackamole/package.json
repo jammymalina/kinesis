@@ -1,0 +1,14 @@
+{
+  "name": "whackamole",
+  "version": "1.0.0",
+  "description": "Whack a mole, or in this particular case, a fucking snake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Jantosik",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.16.0",
+  }
+}
