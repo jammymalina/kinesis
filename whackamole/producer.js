@@ -99,7 +99,7 @@ function whackProducer(kinesis, config) {
             console.log(util.format('Configured wait between consecutive PutRecords call in milliseconds: %d', waitBetweenPutRecordsCallsInMilliseconds));
             _createStreamIfNotCreated(function(err) {
                 if (err) {
-                    console.error(util.format('Stream is not active: %s', err));
+                    console.error(util.format('Could not create stream: %s', err));
                     return;
                 }
                 _sendToKinesis(config.recordsToWritePerBatch, data);
